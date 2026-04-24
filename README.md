@@ -37,6 +37,12 @@ The resulting score places each individual on a continuous risk spectrum — the
 
 ## Outputs
 
+outputs/
+├── ms_gwas_snps.csv           # 379 MS GWAS hits with effect sizes
+├── simulated_genotypes.csv    # 1000 × 379 genotype dosage matrix
+├── ms_prs_scores.csv          # PRS Z-scores + percentiles per individual
+└── ms_prs_results.png         # Distribution + top SNPs visualisation
+
 ---
 
 ## Limitations & notes
@@ -49,6 +55,8 @@ The resulting score places each individual on a continuous risk spectrum — the
 
 ## Dependencies
 
+pip install requests pandas numpy matplotlib seaborn scipy
+
 ---
 
 ## Context
@@ -58,4 +66,5 @@ This project is part of a broader computational neuroimmunology pipeline:
 - [`neuro-deg-scanner`](https://github.com/HafsahShamsi/neuro-deg-scanner) — reusable DEG pipeline for GEO datasets
 - [`ms-pathway-enrichment`](https://github.com/HafsahShamsi/ms-pathway-enrichment) — KEGG/GO enrichment on MS DEGs
 - `ms-polygenic-risk-score` — this repo
+- `drug-target-analysis` — coming next
 - `drug-target-analysis` — coming next
