@@ -37,11 +37,13 @@ The resulting score places each individual on a continuous risk spectrum — the
 
 ## Outputs
 
+```
 outputs/
 ├── ms_gwas_snps.csv           # 379 MS GWAS hits with effect sizes
 ├── simulated_genotypes.csv    # 1000 × 379 genotype dosage matrix
 ├── ms_prs_scores.csv          # PRS Z-scores + percentiles per individual
 └── ms_prs_results.png         # Distribution + top SNPs visualisation
+```
 
 ---
 
