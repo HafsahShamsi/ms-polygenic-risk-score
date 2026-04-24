@@ -69,4 +69,3 @@ This project is part of a broader computational neuroimmunology pipeline:
 - [`ms-pathway-enrichment`](https://github.com/HafsahShamsi/ms-pathway-enrichment) — KEGG/GO enrichment on MS DEGs
 - `ms-polygenic-risk-score` — this repo
 - `drug-target-analysis` — coming next
-- `drug-target-analysis` — coming next
